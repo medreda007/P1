@@ -1,14 +1,14 @@
 *{
     margin: 0;
     padding: 0;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 /* header */
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-inline: 20vw;
+    padding-inline: 22vw;
     margin-top: 20px;
 }
 .logo{
@@ -22,10 +22,11 @@ a{
 .navigation{
     display: flex;
     justify-content:space-between ;
+    align-items: center;
     width: 30vw;
 }
 .link-color{
-    color: darkgray;
+    color: rgb(106, 105, 105);
 }
 
 .signin{
@@ -35,5 +36,48 @@ a{
     padding: 5px 8px;
     text-align: center;
     text-decoration: none;
-    border-radius: 0.3em;
+    border-radius: 4px;
+    
+}   
+/* main */
+main{
+    margin-top: 30px;
+}
+.section-one{
+    text-align: center;
+}
+.hola{
+    color: rgb(59, 59, 59) ;
+}
+.hello{
+    margin-top: 20px;
+    color: rgb(106, 105, 105) ;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+.btn-register {
+    display: inline-block;
+    padding: 0 30px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 2px;
+    margin: 25px 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #6d48e5;
+    color: white;
+    border-radius: 4px;
+}
+.sponsors-list{
+    padding-inline: 23vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.img-sponsor{
+    width: 100px; 
+    height: 30px;
+    opacity: 0.4;
 }
